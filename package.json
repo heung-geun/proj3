@@ -1,0 +1,16 @@
+{
+  "name": "proj3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hyeunggeun-Yun <gudrms121712@naver.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "express": "^4.21.1",
+    "prisma": "^5.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
