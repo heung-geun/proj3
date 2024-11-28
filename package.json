@@ -5,6 +5,9 @@
   "author": "Hyeunggeun-Yun <gudrms121712@naver.com>",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "@prisma/client": "^5.22.0",
     "express": "^4.21.1",
