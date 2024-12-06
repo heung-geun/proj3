@@ -1,0 +1,9 @@
+generator client {
+  provider = "prisma-client-js"
+  output = "./generated/gameDataCLient"
+}
+
+datasource gamedb {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
